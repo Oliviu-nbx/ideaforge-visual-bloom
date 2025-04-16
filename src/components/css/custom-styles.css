@@ -1,0 +1,80 @@
+
+/* Custom background grid pattern */
+.bg-grid-pattern {
+  background-image: linear-gradient(to right, #e2e8f0 1px, transparent 1px),
+    linear-gradient(to bottom, #e2e8f0 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Custom file type icons for the files tab */
+.file-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.file-icon-pdf {
+  background-color: #f87171;
+  color: white;
+}
+
+.file-icon-doc, .file-icon-docx {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.file-icon-xls, .file-icon-xlsx {
+  background-color: #10b981;
+  color: white;
+}
+
+.file-icon-ppt, .file-icon-pptx {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.file-icon-figma {
+  background-color: #8b5cf6;
+  color: white;
+}
+
+.file-icon-image {
+  background-color: #6366f1;
+  color: white;
+}
+
+/* Custom utilities */
+.text-shadow {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.rotate-icon {
+  transition: transform 0.2s ease-in-out;
+}
+
+.rotate-icon:hover {
+  transform: rotate(15deg);
+}
+
+/* Custom button animations */
+.btn-hover-float {
+  transition: transform 0.3s ease;
+}
+
+.btn-hover-float:hover {
+  transform: translateY(-2px);
+}
+
+/* Custom card hover effects */
+.card-hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
